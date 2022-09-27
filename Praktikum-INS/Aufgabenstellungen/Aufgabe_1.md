@@ -1,13 +1,9 @@
-# Internetsprachen-INS-Praktikum
+# Übung 1: Bewerbung
 
-Zum testen und präsentieren der PHP-Skripte benötigen sie einen Webserver mit PHP-Unterstützung. In der Vorlesung wurde ihnen das Softwarepaket XAMP vorgestellt mit dem sie recht einfach einen solchen Webserver auf ihren privaten PC/Laptop installieren können.
-
-
-## Übung 1: Online Bewerbung mit HTML realisieren
-
+Bewerbung
 Sie wollen Ihre Bewerbungsunterlagen zusammenstellen und haben sich entschieden, die Bewerbung in Form einer Web-Site zu erstellen. Ihre Bewerbungsunterlagen bestehen aus einer Reihe von Dokumenten, die Sie von der Start-Seite aus über Links erreichen können. Ihre Web-Site besteht aus folgenden Dokumenten:
 
-- Start-Seite als Anschreiben mit Verzweigungen zu allen weiteren Dokumenten (Briefform) 
+- Start-Seite als Anschreiben mit Verzweigungen zu allen weiteren Dokumenten (Briefform)
 - tabellarischer Lebenslauf
 - bisherige berufliche Tätigkeiten / fachliche Kenntnisse
 - private Dinge wie Hobbies, ...
@@ -22,11 +18,4 @@ Die Texte müssen vernünftige Inhalte und sinnvollen Text enthalten, nicht einf
 Sie müssen die Bewerbungsseite ordentlich gestalten.
 Blindtext wie z.B.Lorem ipsum ist nicht erlaubt.
 
-Wenn sie nicht ihre persönlichen Daten für die Bewerbung verwenden wollen dürfen sie auch die Daten einer „berühmten“ Persönlichkeit verwenden die die gleichen Initialen wie Sie hat.
-
-
-## Übung 2: Erweiterung um Kontaktformular, Bestellformular
-
-
-## 
-
+Verwenden sie nicht ihre persönlichen Daten für die Bewerbung sondern die Daten einer „berühmten“ Persönlichkeit die die gleichen Initialen wie Sie hat.
