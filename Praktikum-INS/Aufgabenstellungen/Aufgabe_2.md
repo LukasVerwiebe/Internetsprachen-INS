@@ -1,4 +1,4 @@
-# Übung 1: Erweiterung um Kontaktformular, Bestellformular
+# Übung 2: Erweiterung um Kontaktformular, Bestellformular
 
 Erweitern Sie die Übung 1 um folgende Dinge:
 
