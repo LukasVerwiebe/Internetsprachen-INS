@@ -1,0 +1,50 @@
+<!ELEMENT FeedbackDaten (PersoenlicheDaten, Checkboxen, EntdecktDurch, Noten, Verbesserung, Spamschutz)>
+<!ATTLIST FeedbackDaten
+Uhrzeit CDATA #REQUIRED
+Datum CDATA #REQUIRED
+>
+<!ELEMENT PersoenlicheDaten (Anrede, Vorname, Nachname, Alter, Telefonnummer, Emailadresse, Webseite)>
+<!ATTLIST PersoenlicheDaten
+position CDATA #REQUIRED
+id CDATA #REQUIRED
+>
+<!ELEMENT Anrede (#PCDATA)>
+<!ELEMENT Vorname (#PCDATA)>
+<!ELEMENT Nachname (#PCDATA)>
+<!ELEMENT Alter (#PCDATA)>
+<!ELEMENT Telefonnummer (#PCDATA)>
+<!ELEMENT Emailadresse (#PCDATA)>
+<!ELEMENT Webseite (#PCDATA)>
+<!ELEMENT Checkboxen (Mailbox, Rueckfragen, erneuterBesuch)>
+<!ATTLIST Checkboxen
+position CDATA #REQUIRED
+id CDATA #REQUIRED
+>
+<!ELEMENT Mailbox (#PCDATA)>
+<!ELEMENT Rueckfragen (#PCDATA)>
+<!ELEMENT erneuterBesuch (#PCDATA)>
+<!ELEMENT EntdecktDurch (AufmerksamDurch)>
+<!ATTLIST EntdecktDurch
+position CDATA #REQUIRED
+id CDATA #REQUIRED
+>
+<!ELEMENT AufmerksamDurch (#PCDATA)>
+<!ELEMENT Noten (NoteInhalt, NoteAussehen)>
+<!ATTLIST Noten
+position CDATA #REQUIRED
+id CDATA #REQUIRED
+>
+<!ELEMENT NoteInhalt (#PCDATA)>
+<!ELEMENT NoteAussehen (#PCDATA)>
+<!ELEMENT Verbesserung (Vorschlag)>
+<!ATTLIST Verbesserung
+position CDATA #REQUIRED
+id CDATA #REQUIRED
+>
+<!ELEMENT Vorschlag (#PCDATA)>
+<!ELEMENT Spamschutz (Passwort)>
+<!ATTLIST Spamschutz
+position CDATA #REQUIRED
+id CDATA #REQUIRED
+>
+<!ELEMENT Passwort (#PCDATA)>
