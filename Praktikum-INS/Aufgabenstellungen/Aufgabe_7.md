@@ -40,34 +40,7 @@ Beispiele:
 
 DTD-für Ausgabedatei
 
-<!ELEMENT feedbackdatenbank (feedback*, entwicker_parser)>
-<!ELEMENT feedback (besucher,bewertung,info)>
-<!ELEMENT besucher (alter,kontakt)>
-<!ATTLIST besucher
-anrede (Herr|Frau|Doktor|Professor) #IMPLIED
-vorname CDATA #REQUIRED
-nachname CDATA #REQUIRED
->
-<!ELEMENT kontakt (emailadresse?,website?,telefonnummer?)>
-<!ATTLIST kontakt
-rueckfrage_erlaubt (true|false) #IMPLIED
->
-<!ELEMENT alter (#PCDATA)>
-<!ELEMENT emailadresse (#PCDATA)>
-<!ELEMENT telefonnummer (#PCDATA)>
-<!ELEMENT website (#PCDATA)>
-<!ELEMENT bewertung (vorschlag?)>
-<!ATTLIST bewertung
-erneuter_besuch (ja|nein) "ja"
-note_inhalt (sehr_gut|gut|befriedigend|ausreichend|mangelhaft|ungenuegend) #IMPLIED
-note_aussehen (1|2|3|4|5|6) #IMPLIED
->
-<!ELEMENT vorschlag (#PCDATA)>
-<!ELEMENT info (email-gesendet?,datum,uhrzeit)>
-<!ELEMENT email-gesendet (#PCDATA)>
-<!ELEMENT datum (#PCDATA)>
-<!ELEMENT uhrzeit (#PCDATA)>
-<!ELEMENT entwicker_parser (#PCDATA)>
+![image](https://user-images.githubusercontent.com/63674539/192423481-81c7980a-c1f3-4bd5-829b-8e70d7b698cb.png)
 
 
 ## Aufgabe 7.6
