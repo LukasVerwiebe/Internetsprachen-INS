@@ -35,20 +35,23 @@ Alle Style-Anweisungen erfolgen über eine CSS-Datei.
 
 - Dropdownliste mit dem Label " Wie sind Sie auf diese Bewerbungsseite aufmerksam geworden?
 
-- Die Dropdownliste bietet folgende Auswahl an.
+Die Dropdownliste bietet folgende Auswahl an.
 
    -- Bitte wählen --
+   
       Allgemein
             Zufall
             Freunde/Bekannte
             Präsentation/Vortrag
             Frühere Nutzung
+            
    Internet-Angebote
             Newsletter anderer Seiten
             Suchmaschine
             Linkliste
             Forum/Gästebuch-Eintrag
             Kostenlos/Gratis-Seite
+            
    Medien
             Zeitung
             Zeitschrift
