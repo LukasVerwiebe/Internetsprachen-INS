@@ -1,21 +1,32 @@
-# Internetsprachen-INS
+# Internetsprachen-INS-Praktikum
 
-Dieses Projekt beinhaltet alle Praktischen Übungen des Kurses Internetsprachen (INS). Ziel dieses Praktikums war die erstellung einer Bewerbungswebseite.
+Zum testen und präsentieren der PHP-Skripte benötigen sie einen Webserver mit PHP-Unterstützung. In der Vorlesung wurde ihnen das Softwarepaket XAMP vorgestellt mit dem sie recht einfach einen solchen Webserver auf ihren privaten PC/Laptop installieren können.
 
-## Ziele der Vorlesung:
-- Erlernen von grundlegenden Konzepten zur Erstellung statischer und dynamischer Web Seiten. 
-- Kurze Einführung in die einzelnen Techniken der Internet Sprachen
-- Lernen, die Sprachkonstrukte der Internet Sprachen sinnvoll und effizient einzusetzen
-- Erwerb von ersten praktischen Erfahrungen bei der Entwicklung von Internet Anwendungen und Dokumenten
-- Erlangung der Fähigkeit, neue Technologien zur Erstellung von Internet Anwendungen schnell begreifen, einordnen und bewerten zu können
 
-## Themanbereiche:
-1. HTML
-2. CSS
-3. PHP
-4. XML
-5. XML mit Java
-6. XML-Schema und XSLT
-7. JavaScript
-8. Ajax
-9. WebServices
+## Übung 1: Online Bewerbung mit HTML realisieren
+
+Sie wollen Ihre Bewerbungsunterlagen zusammenstellen und haben sich entschieden, die Bewerbung in Form einer Web-Site zu erstellen. Ihre Bewerbungsunterlagen bestehen aus einer Reihe von Dokumenten, die Sie von der Start-Seite aus über Links erreichen können. Ihre Web-Site besteht aus folgenden Dokumenten:
+
+- Start-Seite als Anschreiben mit Verzweigungen zu allen weiteren Dokumenten (Briefform) 
+- tabellarischer Lebenslauf
+- bisherige berufliche Tätigkeiten / fachliche Kenntnisse
+- private Dinge wie Hobbies, ...
+- Formularseite für das Bestellen von Zeugniskopien, Arbeitszeugnissen, ...
+- Kontaktseite
+
+Erstellen Sie Ihre Bewerbungsseiten komplett ohne HTML-Editoren in HTML5. Verwenden Sie z.B. Notepad als Editor.
+
+Hinweis: Bei dieser Web-Site kommt es nicht auf ausgeklügeltes Design an. Vielmehr sollen Sie die HTML-Seiten ohne spezialisierte Hilfsprogramme erstellen und möglichst viele HTML-Tags ausprobieren.
+
+Die Texte müssen vernünftige Inhalte und sinnvollen Text enthalten, nicht einfach Stichpunkte sondern ausführlichen Text verwenden.
+Sie müssen die Bewerbungsseite ordentlich gestalten.
+Blindtext wie z.B.Lorem ipsum ist nicht erlaubt.
+
+Wenn sie nicht ihre persönlichen Daten für die Bewerbung verwenden wollen dürfen sie auch die Daten einer „berühmten“ Persönlichkeit verwenden die die gleichen Initialen wie Sie hat.
+
+
+## Übung 2: Erweiterung um Kontaktformular, Bestellformular
+
+
+## 
+
