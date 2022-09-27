@@ -1,32 +1,13 @@
-# Internetsprachen-INS-Praktikum
+# Übung 1: Erweiterung um Kontaktformular, Bestellformular
 
-Zum testen und präsentieren der PHP-Skripte benötigen sie einen Webserver mit PHP-Unterstützung. In der Vorlesung wurde ihnen das Softwarepaket XAMP vorgestellt mit dem sie recht einfach einen solchen Webserver auf ihren privaten PC/Laptop installieren können.
+Erweitern Sie die Übung 1 um folgende Dinge:
 
+- Lassen Sie die Webseiten für Dokumente (Lebenslauf, berufliche Tätigkeiten, private Tätigkeiten, Formularseite ...), auf die Sie von der Startseite aus zugreifen können, in einem weiteren Fenster/Tab erscheinen, das immer wieder verwendet wird, d.h. es wird nur ein weiteres Fenster erzeugt , in dem dann alle Dokumente angezeigt werden. Anmerkung: Die Einstellung des Webbrowsers legt fest ob ein weiteres Fenster oder ob ein weiteres Tab geöffnet wird, sie können dieses Verhalten nicht mit HTML beeinflussen.
 
-## Übung 1: Online Bewerbung mit HTML realisieren
+- Lassen Sie die Webseite für die Kontakinformationen, auf die Sie von der Startseite aus zugreifen können, immer wieder in einem neuen Fenster/Tab erscheinen,  Das bedeutet wenn man von der Startseite die Kontaktinformationen z.B. fünfmal aufruft dann werden  auch fünf Fenster/Tab mit den Kontaktinformationen angezeigt..Die Einstellung des Webbrowsers legt fest ob ein weiteres Fenster oder ob ein weiteres Tab geöffnet wird, sie können dieses Verhalten nicht mit HTML beeinflussen.
 
-Sie wollen Ihre Bewerbungsunterlagen zusammenstellen und haben sich entschieden, die Bewerbung in Form einer Web-Site zu erstellen. Ihre Bewerbungsunterlagen bestehen aus einer Reihe von Dokumenten, die Sie von der Start-Seite aus über Links erreichen können. Ihre Web-Site besteht aus folgenden Dokumenten:
+- Über der die Formular-Webseite kann der Benutzer auswählen welche PDF-Dokumente (Zeugnisse, Urkunden , Zertifikate, Praktikumsunterlagen usw. ) er zu gesendet bekommen will. Die Auswahl kann über Listen, Checkboxen usw. realisiert werden, die Art der Realisierung dürfen sie selbst entscheiden. Die Formular-Webseite soll so konfiguriert werden, dass die ausgewählten PDF-Dokumente per E-Mail angefordert werden, dh. es öffnet sich ein E-Mail-Client und die Auflistung der gewünschten PDF-Dokumente werden automatisch schon in der E-Mail angezeigt.
 
-- Start-Seite als Anschreiben mit Verzweigungen zu allen weiteren Dokumenten (Briefform) 
-- tabellarischer Lebenslauf
-- bisherige berufliche Tätigkeiten / fachliche Kenntnisse
-- private Dinge wie Hobbies, ...
-- Formularseite für das Bestellen von Zeugniskopien, Arbeitszeugnissen, ...
-- Kontaktseite
+- Der Lebenslauf sollte in tabellarisch Form und als HTML Tabelle realisiert werden und vielleicht ein Foto (Grafikdatei) von Ihnen bzw. einer berühmten Persönlichkeit enthalten.
 
-Erstellen Sie Ihre Bewerbungsseiten komplett ohne HTML-Editoren in HTML5. Verwenden Sie z.B. Notepad als Editor.
-
-Hinweis: Bei dieser Web-Site kommt es nicht auf ausgeklügeltes Design an. Vielmehr sollen Sie die HTML-Seiten ohne spezialisierte Hilfsprogramme erstellen und möglichst viele HTML-Tags ausprobieren.
-
-Die Texte müssen vernünftige Inhalte und sinnvollen Text enthalten, nicht einfach Stichpunkte sondern ausführlichen Text verwenden.
-Sie müssen die Bewerbungsseite ordentlich gestalten.
-Blindtext wie z.B.Lorem ipsum ist nicht erlaubt.
-
-Wenn sie nicht ihre persönlichen Daten für die Bewerbung verwenden wollen dürfen sie auch die Daten einer „berühmten“ Persönlichkeit verwenden die die gleichen Initialen wie Sie hat.
-
-
-## Übung 2: Erweiterung um Kontaktformular, Bestellformular
-
-
-## 
-
+- In der Kontaktseite sollen Ihre Kontaktdaten und E-Mail-Adresse angezeigt werden. Wenn Sie auf diese klicken, soll ein E-Mail-Client starten, der Ihre Email-Adresse und eine Betreff-Zeile vorbesetzt hat. Wenn sie von der Hauptseite die Kontakt-Webseite aufrufen soll jedes mal ein neues Fenster/Tab geöffnet werden. Dies ist sicherlich nicht ergonomisch sinnvoll, dient aber als Übung damit sie lernen wie dies Konfiguriert wird.
