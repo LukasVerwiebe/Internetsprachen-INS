@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Bewerbung | Formulare</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+		<link rel="icon" href="bilder\ski.png">
+	</head>
+	<body>
+		<div id="seite">
+			<div id="inhalt">
+				<div class="containerHead">
+					<div><img src="bilder\ski2.png"></div>
+					<h1>Bewerbung | Formulare</h1>
+				</div>
+				<!-- Menü -->
+				<div class="container">
+					<nav>
+						<ul class="navbar">
+							<li class="navPunkt"><p><i class="fas fa-bars fa-2x"></i></p></li>
+							<li class="navPunkt"><a href="index.html"><i class="fa fa-home fa-2x"></i><br>Start</a></li>
+							<li class="navPunkt"><a href="Anschreiben.html"><i class="far fa-file-alt fa-2x"></i><br>Anschreiben</a></li>
+							<li class="navPunkt"><a href="Lebenslauf.html"><i class="far fa-address-card fa-2x"></i><br>Lebenslauf</a></li>
+							<li class="navPunkt"><a href="Kenntnisse.html"><i class="fas fa-user-graduate fa-2x"></i><br>Kenntnisse</a></li>
+							<li class="navPunkt"><a href="Privates.html"><i class="fas fa-skiing fa-2x"></i><br>Privates</a></li>
+							<li class="navPunkt"><a href="Kontakt.html" target="_blank"><i class="fas fa-at fa-2x"></i><br>Kontakt</a></li>
+							<li class="navPunkt"><a href="Formulare.html"><i class="fas fa-file-signature fa-2x"></i><br>Formulare</a></li>
+							<li class="navPunkt"><a href="Feedback.html"><i class="far fa-comment-dots fa-2x"></i><br>Feedback</a></li>
+							<li class="navPunkt"><a href="http://localhost/feedbacks.php" target="_blank"><i class="far fa-comment-dots fa-2x"></i><br>Auswertung</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="container2">
+          <h2>Anfordern von Zeugnissen und Zertifikaten:</h2>
+          <p>Sie können die gewünschten PDF Dateien Auswählen und diese per Email Anfordern.
+            Bitte bedenken Sie, dass die Bearbeitung ihrer Anfrage einige Tage dauern kann.</p>
+          <p>Vielen Dank für Ihr Verständnis.</p>
+				</div>
+
+        <div class="containerKontakt">
+          <form action="mailto:test@webseite.de" method="GET">
+            <input type="checkbox" id="body" name="body" value="Unterlagen:" checked=true hidden=true>
+            <label for="zeugnisse">Zeugnisse:</label>
+      			<input type="checkbox" id="zeugnisse" name="body" value="-Zeugnisse">
+            <br><br>
+            <label for="urkunden">Urkunden:</label>
+      			<input type="checkbox" id="urkunden" name="body" value="-Urkunden">
+            <br><br>
+            <label for="zertifikate">Zertifikate:</label>
+      			<input type="checkbox" id="zertifikate" name="body" value="-Zertifikate">
+            <br><br>
+            <label for="praktikum">Praktikum:</label>
+            <input type="checkbox" id="praktikum" name="body" value="-Praktikumsunterlagen">
+            <br><br>
+            <input id="emailSendenFormulare" type="submit" value="Senden">
+            <input type="checkbox" id="subject" name="subject" value="Unterlagen" checked=true hidden=true>
+          </form>
+        </div>
+
+			</div>
+			<!-- Fußzeile -->
+			<footer id="footnote">
+				<p id="foottext">Copyright: Lukas </p>
+        <p id="foottext"><a href="mailto:test@webseite.de?subject=Geschäftsanfrage&body=Hallo,%0D%0A%0D%0Ahier%20ist%20meine%20Anfrage.">Kontakt</a></p>
+			</footer>
+
+	</div>
+
+	</body>
+</html>

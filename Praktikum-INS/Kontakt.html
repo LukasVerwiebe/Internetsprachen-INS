@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<title>Bewerbung | Kontakt</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+		<link rel="icon" href="bilder\ski.png">
+	</head>
+	<body>
+		<div id="seite">
+			<div id="inhalt">
+				<div class="containerHead">
+					<div><img src="bilder\ski2.png"></div>
+					<h1>Bewerbung | Kontakt</h1>
+				</div>
+				<!-- Menü -->
+				<div class="container">
+					<nav>
+						<ul class="navbar">
+							<li class="navPunkt"><p><i class="fas fa-bars fa-2x"></i></p></li>
+							<li class="navPunkt"><a href="index.html"><i class="fa fa-home fa-2x"></i><br>Start</a></li>
+							<li class="navPunkt"><a href="Anschreiben.html"><i class="far fa-file-alt fa-2x"></i><br>Anschreiben</a></li>
+							<li class="navPunkt"><a href="Lebenslauf.html"><i class="far fa-address-card fa-2x"></i><br>Lebenslauf</a></li>
+							<li class="navPunkt"><a href="Kenntnisse.html"><i class="fas fa-user-graduate fa-2x"></i><br>Kenntnisse</a></li>
+							<li class="navPunkt"><a href="Privates.html"><i class="fas fa-skiing fa-2x"></i><br>Privates</a></li>
+							<li class="navPunkt"><a href="Kontakt.html" target="_blank"><i class="fas fa-at fa-2x"></i><br>Kontakt</a></li>
+							<li class="navPunkt"><a href="Formulare.html"><i class="fas fa-file-signature fa-2x"></i><br>Formulare</a></li>
+							<li class="navPunkt"><a href="Feedback.html"><i class="far fa-comment-dots fa-2x"></i><br>Feedback</a></li>
+							<li class="navPunkt"><a href="http://localhost/feedbacks.php" target="_blank"><i class="far fa-comment-dots fa-2x"></i><br>Auswertung</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="container2">
+          <h2>Kontakt:</h2>
+          <p>Haben Sie interesse an einer Zusammenarbeit? Dann füllen Sie die
+            unten aufgeführten Kontaktinformationen aus und teilen Sie uns ihre
+            Anfrage mit. Bitte bedenken Sie, dass die Bearbeitung ihrer Anfrage einige Tage dauern kann.</p>
+          <p>Vielen Dank für Ihr Verständnis.</p>
+          <a href="mailto:test@webseite.de?subject=Geschäftsanfrage&body=Hallo,%0D%0A%0D%0Ahier%20ist%20meine%20Anfrage.">test@webseite.de</a>
+				</div>
+
+        <div class="containerKontakt">
+          <form action="mailto:test@webseite.de" method="GET">
+            <label for="subject">Betreff:</label>
+    			  <input type="subject" id="subject" name="subject" placeholder="Geschäftsidee">
+            <br><br>
+            <label for="webseite">Ihre Anfrage:</label>
+            <textarea id="body" name="body" placeholder="Geben Sie Ihre Anfrage ein."></textarea>
+            <br><br>
+            <input id="emailSenden" type="submit" value="Senden">
+          </form>
+        </div>
+
+			</div>
+			<!-- Fußzeile -->
+			<footer id="footnote">
+        <p id="foottext">Copyright: Lukas </p>
+        <p id="foottext"><a href="mailto:test@webseite.de?subject=Geschäftsanfrage&body=Hallo,%0D%0A%0D%0Ahier%20ist%20meine%20Anfrage.">Kontakt</a></p>
+			</footer>
+
+	</div>
+
+	</body>
+</html>

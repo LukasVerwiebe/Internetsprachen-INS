@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<title>Bewerbung | Feedback</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+		<link rel="icon" href="bilder\ski.png">
+	</head>
+	<body>
+		<div id="seite">
+			<div id="inhalt">
+				<div class="containerHead">
+					<div><img src="bilder\ski2.png"></div>
+					<h1>Bewerbung | Feedback</h1>
+				</div>
+				<!-- Menü -->
+				<div class="container">
+					<nav>
+						<ul class="navbar">
+							<li class="navPunkt"><p><i class="fas fa-bars fa-2x"></i></p></li>
+							<li class="navPunkt"><a href="index.html"><i class="fa fa-home fa-2x"></i><br>Start</a></li>
+							<li class="navPunkt"><a href="Anschreiben.html"><i class="far fa-file-alt fa-2x"></i><br>Anschreiben</a></li>
+							<li class="navPunkt"><a href="Lebenslauf.html"><i class="far fa-address-card fa-2x"></i><br>Lebenslauf</a></li>
+							<li class="navPunkt"><a href="Kenntnisse.html"><i class="fas fa-user-graduate fa-2x"></i><br>Kenntnisse</a></li>
+							<li class="navPunkt"><a href="Privates.html"><i class="fas fa-skiing fa-2x"></i><br>Privates</a></li>
+							<li class="navPunkt"><a href="Kontakt.html" target="_blank"><i class="fas fa-at fa-2x"></i><br>Kontakt</a></li>
+							<li class="navPunkt"><a href="Formulare.html"><i class="fas fa-file-signature fa-2x"></i><br>Formulare</a></li>
+							<li class="navPunkt"><a href="Feedback.html"><i class="far fa-comment-dots fa-2x"></i><br>Feedback</a></li>
+							<li class="navPunkt"><a href="http://localhost/feedbacks.php" target="_blank"><i class="far fa-comment-dots fa-2x"></i><br>Auswertung</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="container2">
+          <h2>Feedback:</h2>
+          <p>Haben Sie Feedback für uns? Dann füllen Sie bitte das
+            unten aufgeführten Formular aus.</p>
+        </div>
+
+          <div class="containerFeedback">
+            <form action="http://localhost/Auswertung.php" target="_blank" method="POST">
+              <label for="vorname">Vorname:</label><br>
+      			  <input type="text" id="vorname" name="vorname" autocomplete=true autofocus required>
+              <br>
+              <label for="nachname">Nachname:</label><br>
+      			  <input type="text" id="nachname" name="nachname" autocomplete=true required>
+              <br>
+              <label for="anrede">Anrede:</label><br>
+              <select name="anrede" id="anrede">
+        				<option value="Herr">Herr</option>
+        				<option value="Frau">Frau</option>
+        				<option value="Dr.">Dr.</option>
+        				<option value="Prof.">Prof.</option>
+        			</select>
+              <br>
+              <label for="alter">Alter:</label><br>
+        			<input type="number" id="alter" name="alter" min="18" max="99" value="21">
+              <br>
+              <label for="telefon">Telefonnummer:</label><br>
+        			<input type="text" id="telefon" name="telefon">
+              <br>
+              <label for="email">Emailadresse:</label><br>
+      			  <input type="email" id="email" name="email">
+              <br>
+              <label for="webseite">URL/Webseite:</label><br>
+        			<input type="text" id="webseite" name="webseite">
+              <br>
+              <label for="mailbox">Kopie an meine Mailbox senden:</label><br>
+        			<input type="checkbox" id="mailbox" name="mailbox" value="1">
+              <br><br>
+              <label for="rückfrage">Ich stehe für evtl. Rückfragen zur Verfügung:</label><br>
+        			<input type="checkbox" id="rückfrage" name="rückfrage">
+              <br><br>
+              <label for="besuch">Ich werde die Seite wieder besuchen:</label><br>
+        			<input type="checkbox" id="besuch" name="besuch">
+              <br><br>
+              <label for="aufmerksam">Wie sind Sie auf diese Bewerbungsseite aufmerksam geworden?</label><br>
+              <select id="aufmerksam" name="aufmerksam">
+                <option>-- Bitte wählen --</option>
+                <option disabled><b>Allgemein</b></option>
+        				<option value="Zufall" placeholder="-- Bitte wählen --">Zufall</option>
+        				<option value="Freunde/Bekannte">Freunde/Bekannte</option>
+        				<option value="Präsentation/Vortrag">Präsentation/Vortrag</option>
+        				<option value="Frühere Nutzung">Frühere Nutzung</option>
+                <option disabled><b>Internet-Angebote</b></option>
+                <option value="Newsletter andere Seiten">Newsletter andere Seiten</option>
+        				<option value="Suchmaschine">Suchmaschine</option>
+        				<option value="Linkliste">Linkliste</option>
+        				<option value="Forum/Gästebuch-Eintrag">Forum/Gästebuch-Eintrag</option>
+                <option value="Kostenlos/Gratis-Seite">Kostenlos/Gratis-Seite</option>
+                <option disabled><b>Medien</b></option>
+                <option value="Zeitung">Zeitung</option>
+        				<option value="Zeitschrift">Zeitschrift</option>
+        				<option value="Radio">Radio</option>
+        				<option value="Fernsehen">Fernsehen</option>
+        			</select>
+              <br><br>
+              <label for="verbessern">Was würden Sie verbessern?</label><br>
+              <textarea id="verbessern" name="verbessern" placeholder="Geben Sie Ihren Vorschlag ein."></textarea>
+              <br><br><br><br><br><br><br><br><br><br><br>
+              <div class="containerBewertung">
+              <label for="noteInhalt">Welche Note würdest du allgemein dem Inhalt geben?<br> (1 = sehr gut, 6 = ungenügend) </label><br>
+        			<label for="eins">1</label>
+        			<input type="radio" name="noteInhalt" value=1 id="eins"><br>
+        			<label for="zwei">2</label>
+        			<input type="radio" name="noteInhalt" value=2 id="zwei"><br>
+        			<label for="drei">3</label>
+        			<input type="radio" name="noteInhalt" value=3 id="drei"><br>
+        			<label for="vier">4</label>
+        			<input type="radio" name="noteInhalt" value=4 id="vier"><br>
+              <label for="fünf">5</label>
+        			<input type="radio" name="noteInhalt" value=5 id="fünf"><br>
+              <label for="sechs">6</label>
+        			<input type="radio" name="noteInhalt" value=6 id="sechs"><br>
+              </div>
+              <br>
+              <div class="containerBewertung">
+              <label for="noteAussehen">Welche Note würdest du allgemein dem Aussehen geben? <br> (1 = sehr gut, 6 = ungenügend) </label><br>
+        			<label for="eins">1</label>
+        			<input type="radio" name="noteAussehen" value=1 id="eins"><br>
+        			<label for="zwei">2</label>
+        			<input type="radio" name="noteAussehen" value=2 id="zwei"><br>
+        			<label for="drei">3</label>
+        			<input type="radio" name="noteAussehen" value=3 id="drei"><br>
+        			<label for="vier">4</label>
+        			<input type="radio" name="noteAussehen" value=4 id="vier"><br>
+              <label for="fünf">5</label>
+        			<input type="radio" name="noteAussehen" value=5 id="fünf"><br>
+              <label for="sechs">6</label>
+        			<input type="radio" name="noteAussehen" value=6 id="sechs"><br>
+              </div>
+              <br>
+              <label for="password">Passwort- /Spamschutz: Bitte gib Internetsprachen ein</label><br>
+        			<input type="password" id="password" name="password" required>
+              <br><br>
+              <input id="buttonfeedback" type="submit" value="Senden">
+              <br>
+              <input id="buttonfeedback" type="reset" value="Zurücksetzen" name="buttonfeedback">
+            </form>
+          </div>
+
+			</div>
+			<!-- Fußzeile -->
+			<footer id="footnote">
+        <p id="foottext">Copyright: Lukas </p>
+        <p id="foottext"><a href="mailto:test@webseite.de?subject=Geschäftsanfrage&body=Hallo,%0D%0A%0D%0Ahier%20ist%20meine%20Anfrage.">Kontakt</a></p>
+			</footer>
+
+	</div>
+
+	</body>
+</html>

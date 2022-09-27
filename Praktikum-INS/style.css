@@ -1,0 +1,348 @@
+/*Import für die verwendete Schriftfamilie für Bildschiormausgabe*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+/* CSS Format für den Drucker */
+@media print {
+	/* Mit * werden alle Tags angesprochen (Allgemeine Einstellungen)	*/
+	* {
+		/* Schriftfamilie */
+		font-family: arial;
+		/* Farbe für alle Tags */
+		color: Blue;
+		/* Textdarstellung als Blocksatz*/
+		text-align: justify;
+	}
+	/*Ansprechen der Klasse navbar*/
+	.navbar{
+		/*Angabe ob vor den Listeneinträgen ein Symbol angezeigt werden soll
+		und welches*/
+		list-style-type: none;
+		/*Angabe über die Innenabstände von Zeilen (In alle Richtungen möglich)*/
+		padding: 0px;
+		/*Angabe über die Außenabstände der Zeile (Wie Margin in alle Richtungen
+		möglich)*/
+		margin: 0px;
+		/*Festlegen ob der Inhalt aus dem Element hinausragen darf:
+		Hidden = Der Inahlt wird abgeschnitten und es werden keine Scrollbalken
+		angezeigt*/
+		overflow: hidden;
+		/*Hintergrundfarbe des Elements*/
+		background-color: #444444;
+	}
+
+	.navPunkt a{
+		/*Plaziert ein Element auf der linken oder Rechten Seite seines Containers*/
+		float: left;
+		/*Art der Darstellung */
+		display: block;
+		color: white;
+		padding: 10px 15px;
+		text-align: center;
+		/*Beispiel: Unterstrichdekoration*/
+		text-decoration: none;
+		/*Rechter Rahmen*/
+		border-right: 1px solid black;
+		/*Minimale Breite eines Elements*/
+		min-width: 60px;
+	}
+
+	.navPunkt p{
+		float: left;
+		display: block;
+		color: white;
+		padding: 10px 15px;
+		text-align: center;
+		text-decoration: none;
+		border-right: 1px solid black;
+		min-width: 60px;
+	}
+}
+/* CSS Format für den Bildschirm */
+@media screen {
+	* {
+		font-family: 'Work Sans', sans-serif;
+		padding: 0;
+		margin: 0;
+	}
+
+html, body{
+	/*Höhe des Inhaltsbereichs eines Elements*/
+	height: 100%;
+}
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	color: #333;
+	/*Größe der Zeilen Höhe*/
+	line-height: 1.6;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+
+h1,h2 {
+	/*definiert die Stärke der Schrift*/
+	font-weight: 300;
+	line-height: 1.5;
+	margin: 10px 0;
+}
+
+p {
+	margin: 10px 0;
+}
+/*Ansprechen der ID des Elements*/
+#seite{
+	/*Eigenschaft legt die Positionsart eines Elements fest*/
+	position: relative;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+#inhalt{
+	padding-bottom: 10em;
+}
+
+#footnote{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #444444;
+}
+
+#foottext{
+	float: left;
+	display: block;
+	color: white;
+	padding: 2px 15px;
+	text-align: center;
+	text-decoration: none;
+	min-width: 60px;
+	margin-right: 200px;
+}
+
+#foottext a{
+	color: white;
+	border-bottom: 1px solid white;
+}
+
+.containerHead{
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 0px;
+}
+
+.containerHead div{
+	float: left;
+}
+
+.containerHead img{
+	width: 30%;
+}
+
+.container {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.container2{
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 900px;
+	text-align: justify;
+}
+
+.containerLeben{
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 300px;
+	text-align: justify;
+}
+
+.containerBilder{
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 400px;
+	margin-bottom: 30px;
+	float: right;
+}
+
+.containerBild1 img{
+	width: 50%;
+}
+
+.containerBild2 img{
+	width: 90%;
+}
+
+.containerBild3 img{
+	width: 90%;
+}
+
+.container2 h1,h2{
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+.containerButton{
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 1300px;
+	margin-bottom: 200px;
+	text-align: justify;
+}
+
+#emailSenden{
+	text-align: center;
+	float: right;
+	width: 450px;
+	height: 2em;
+	color: white;
+	background-color: #444444;
+}
+
+#emailSendenFormulare{
+	text-align: center;
+	float: right;
+	width: 300px;
+	height: 2em;
+	color: white;
+	background-color: #444444;
+	float: left;
+}
+
+#buttonfeedback{
+	text-align: center;
+	float: left;
+	width: 450px;
+	height: 2em;
+	color: white;
+	background-color: #444444;
+}
+
+.containerKontakt{
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 1300px;
+	margin-bottom: 200px;
+	text-align: justify;
+}
+
+.containerKontakt label{
+	text-align: left;
+	font-weight: bold;
+}
+
+.containerKontakt input{
+	text-align: left;
+	float: right;
+	width: 450px;
+	height: 1.5em;
+}
+
+.containerKontakt textarea{
+	font-family: 'Work Sans', sans-serif;
+	margin-bottom: 10px;
+	text-align: left;
+	float: right;
+	width: 450px;
+	height: 16em;
+	resize: none;
+	overflow: auto;
+}
+
+.containerFeedback{
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 1300px;
+	margin-bottom: 200px;
+	text-align: justify;
+}
+
+.containerFeedback label{
+	text-align: left;
+	font-weight: bold;
+}
+
+.containerFeedback input{
+	text-align: left;
+	float: left;
+	width: 450px;
+	height: 1.5em;
+}
+
+.containerFeedback textarea{
+	font-family: 'Work Sans', sans-serif;
+	margin-bottom: 10px;
+	text-align: left;
+	float: left;
+	width: 450px;
+	height: 16em;
+	/*ob ein Element größenveränderbar ist*/
+	resize: none;
+	overflow: auto;
+}
+
+.containerFeedback select{
+	text-align: left;
+	float: left;
+	width: 450px;
+	height: 1.5em;
+}
+
+.containerBewertung input{
+	text-align: left;
+	float: left;
+	width: 30px;
+	height: 1.5em;
+}
+
+.navbar{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	background-color: #444444;
+}
+
+.navPunkt a{
+	float: left;
+	display: block;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	border-right: 1px solid black;
+	min-width: 60px;
+}
+
+.navPunkt p{
+	float: left;
+	display: block;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	border-right: 1px solid black;
+	min-width: 60px;
+}
+
+/*Über Element die Maus setzen*/
+.navPunkt a:hover{
+	background-color: #222222;
+	animation: myGlowAnimation;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+}
+
+@keyframes myGlowAnimation{
+	50%{text-shadow: 0px 0px 10px yellow;}
+}

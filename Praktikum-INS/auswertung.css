@@ -1,0 +1,68 @@
+
+html, body{
+	height: 100%;
+}
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	color: #333;
+	line-height: 1.6;
+}
+
+h1,h2 {
+	font-weight: 300;
+	line-height: 1.5;
+	margin: 10px 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+td {
+  padding: 3px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.containerHead{
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 0px;
+}
+
+.containerHead div{
+	float: left;
+}
+
+.containerHead img{
+	width: 30%;
+}
+
+.table{
+  width: 100%;
+}
+
+#start{
+  background-color:green;
+  color:white;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+#startspalte {
+  column-span: all;
+}
+
+.überschrift{
+  background-color:red;
+  font-style:italic;
+  font-weight:bold;
+}
+
+.benotung{
+  background-color:red;
+}
