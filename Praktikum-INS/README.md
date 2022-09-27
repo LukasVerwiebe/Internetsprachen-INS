@@ -6,4 +6,4 @@ Zum testen und präsentieren der PHP-Skripte wird ein Webserver mit PHP-Unterst�
 
 ## Anmerkung zu den Aufgaben
 
-Die Aufgabenstellung war es eine Zusammenhängende Webseite zu erstellen, deswegen sind die einzelen Aufgaben in einzelnen eigenen README Dateien zu finden.
+Die Aufgabenstellung war es eine Zusammenhängende Webseite zu erstellen, deswegen sind die einzelen Aufgaben in einzelnen eigenen README Dateien in dem Ornder "Aufgabenstellungen" zu finden.
