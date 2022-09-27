@@ -44,15 +44,15 @@ Die Dropdownliste bietet folgende Auswahl an.
             Freunde/Bekannte
             Präsentation/Vortrag
             Frühere Nutzung
-            
-   Internet-Angebote
+          
+      Internet-Angebote
             Newsletter anderer Seiten
             Suchmaschine
             Linkliste
             Forum/Gästebuch-Eintrag
             Kostenlos/Gratis-Seite
             
-   Medien
+    Medien
             Zeitung
             Zeitschrift
             Radio
