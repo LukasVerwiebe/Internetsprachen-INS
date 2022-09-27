@@ -1,4 +1,4 @@
-# Übung 1: Bewerbung
+# Übung 1: Online Bewerbung mit HTML realisieren
 
 Sie wollen Ihre Bewerbungsunterlagen zusammenstellen und haben sich entschieden, die Bewerbung in Form einer Web-Site zu erstellen. Ihre Bewerbungsunterlagen bestehen aus einer Reihe von Dokumenten, die Sie von der Start-Seite aus über Links erreichen können. Ihre Web-Site besteht aus folgenden Dokumenten:
 
