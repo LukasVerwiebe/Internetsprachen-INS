@@ -37,21 +37,18 @@ Alle Style-Anweisungen erfolgen über eine CSS-Datei.
 
 Die Dropdownliste bietet folgende Auswahl an.
 
-   -- Bitte wählen --
-   
+      -- Bitte wählen --   
       Allgemein
             Zufall
             Freunde/Bekannte
             Präsentation/Vortrag
-            Frühere Nutzung
-          
+            Frühere Nutzung          
       Internet-Angebote
             Newsletter anderer Seiten
             Suchmaschine
             Linkliste
             Forum/Gästebuch-Eintrag
-            Kostenlos/Gratis-Seite
-            
+            Kostenlos/Gratis-Seite            
     Medien
             Zeitung
             Zeitschrift
