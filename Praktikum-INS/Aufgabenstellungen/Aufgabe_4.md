@@ -49,7 +49,7 @@ Die Dropdownliste bietet folgende Auswahl an.
             Linkliste
             Forum/Gästebuch-Eintrag
             Kostenlos/Gratis-Seite            
-    Medien
+      Medien
             Zeitung
             Zeitschrift
             Radio
