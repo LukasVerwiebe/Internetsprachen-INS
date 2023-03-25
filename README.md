@@ -1,6 +1,6 @@
 # Internetsprachen-INS
 
-Dieses Projekt beinhaltet alle Praktischen Übungen des Kurses Internetsprachen (INS). Ziel dieses Praktikums war die erstellung einer Bewerbungswebseite.
+Dieses Projekt beinhaltet alle praktischen Übungen des Kurses Internetsprachen (INS). Ziel dieses Praktikums war die Erstellung einer Bewerbungswebseite.
 
 ## Ziele der Vorlesung:
 - Erlernen von grundlegenden Konzepten zur Erstellung statischer und dynamischer Web Seiten. 
